@@ -1,11 +1,7 @@
-//Write a JS code to print the Fibonacci series for a given value of N
-function fibonacci(n) {
-    let series = [0, 1];
-    for (let i = 2; i <= n; i++) {
-      series.push(series[i - 1] + series[i - 2]);
-    }
-    return series;
-  }
-  
-  console.log(fibonacci(20)); 
-  
+//9. Write a js program to insert an element in an array.
+let array=["Mango","Kiwi","banana","Orange"]
+let insert=("lichi")
+let insert2=("strawberry")
+let indextoinsert=2;
+array.splice(indextoinsert,0,insert,insert2)
+console.log(array)
