@@ -1,6 +1,9 @@
-//2. Write a js program to print all negative elements in an array.
-let array=[1,-2,3,-4,5,-5]
-for(let i=0;i<array.length;i++){
-    if(array[i]<0)
-    console.log(array[i])
-}
+//2. Write a JS code to print Even numbers in given array
+
+ const numbers = ["1","2","3","4","5","6","7","8","9","10"]
+
+ for(let i=0;i<numbers.length;i++){
+    if(numbers[i]%2==0){
+    console.log(numbers[i])
+ }
+ }

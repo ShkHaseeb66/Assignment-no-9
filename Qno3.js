@@ -1,7 +1,5 @@
-//3. Write a js program to find sum of all array elements.
-let array=[1,2,4,6,8,10];
-let sum=0;
-for(let i=0;i<array.length;i++){
-    sum+=array[i]
-} 
-console.log(sum)
+//3. Write a JS code to delete all occurrence of element in given array
+let num=[30,40,50,60,70]
+
+num.length=0
+console.log(num)

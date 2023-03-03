@@ -1,10 +1,12 @@
-//8. Write a js program to copy all elements from an array to another array.
-const originalArray = [1, 2, 3, 4, 5];
-const copiedArray = [];
+//8. Write a JS code to find the largest number in an array
 
-for (let i = 0; i < originalArray.length; i++) {
-  copiedArray.push(originalArray[i]);
-}
-
-console.log("Original array: " + originalArray);
-console.log("Copied array: " + copiedArray);
+function findLargestNumber(numbers) {
+    let largest = numbers[0];
+    for (let i = 1; i < numbers.length; i++) {
+      if (numbers[i] >= largest) {
+        largest = numbers[i];
+      }
+    }
+    return largest;
+  }
+  console.log(findLargestNumber([1,2,3,4,5,6,890]))
